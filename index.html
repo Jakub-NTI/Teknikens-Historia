@@ -4,13 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <img class="w3-image" src="images/Bolb.png" width="40" height="40">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card" id="whiteBox">
+    <img class="w3-image" id="bolb" src="images/Bolb.png" width="40" height="40">
     <a href="#home" class="w3-bar-item w3-button"><b>Teknikens Historia</b></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
@@ -23,9 +24,9 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <img class="w3-image" src="images/mike.jpg" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Teknikens Historia</b></span></h1>
   </div>
 </header>
 
@@ -36,6 +37,12 @@
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
   </div>
+  <div>
+      <audio controls>
+        <source src="audio_files/Podcast.mp3" type="audio/mpeg">
+      </audio>
+  </div>
+
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">

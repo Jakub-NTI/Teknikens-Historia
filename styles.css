@@ -8,4 +8,10 @@
 
 #mike {
     height: 100%;
+    width: 100%;
+}
+
+#about {
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
